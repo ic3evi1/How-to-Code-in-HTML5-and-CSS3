@@ -1,0 +1,36 @@
+{
+    "title": "How to Code  in HTML5 and CSS3",
+    "description": "How-to-Code-in-HTML5-and-CSS3",
+    "author": "wildgr4ss",
+    "language": "zh-hans",
+    "root": ".",
+
+    "plugins": [
+        "donate",
+        "github-buttons@2.1.0",
+        "edit-link"
+    ],
+
+    "pluginsConfig": {
+        "donate": {
+            "wechat": "https://wildgrass.top/images/wechatpay.jpg",
+            "alipay": "https://wildgrass.top/images/alipay.jpg",
+            "title": "",
+            "button": "打赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
+        },
+        "github-buttons": {
+            "repo": "ic3evi1/How-to-Code-in-HTML5-and-CSS3",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        },
+        "edit-link": {
+            "base": "https://github.com/ic3evi1/How-to-Code-in-HTML5-and-CSS3.git",
+            "label": "Edit This Page"
+        }
+    }
+}
+
