@@ -15,3 +15,5 @@
 - [x] [网站和乐高积木](/01-Websites-and-Legos/Websites-and-Legos.md)
 - [x] [让我们建立我们的第一个网站](/02-Build-our-first-website/Build-our-first-website.md)
 - [x] [完美HTML代码的功能](/03-Features-of-Perfect-HTML-Code/Features-of-Perfect-HTML-Code.md)
+- [x] [HTML练习：编写一个Blogpost](/04-Coding-a-Blogpost/Coding-a-Blogpost.md)
+
