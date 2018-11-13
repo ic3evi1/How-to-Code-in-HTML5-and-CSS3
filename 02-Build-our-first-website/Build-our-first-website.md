@@ -4,47 +4,47 @@
 
 我们假设我们想要建立一个带有职位发布的网页。它应该看起来像这样：
 
-![img](http://howtocodeinhtml.com/img/chapter2/job-post-clean.png)
+![job-post-clean.png](https://i.loli.net/2018/11/14/5beb1933daa8f.png)
 
 在创建任何类型的网页之前，最好根据重要性将内容划分为更小的组件。现在让我们尝试识别并突出显示此职位发布的每个元素，就像我们在 The Verge 的示例中所做的那样。
 
-![img](http://howtocodeinhtml.com/img/chapter2/annotated-job-post.png)
+![annotated-job-post.png](https://i.loli.net/2018/11/14/5beb1933ab3e2.png)
 
 简要分析将有助于我们更好地了解文本的哪些方面应该在职位发布中脱颖而出。红色表示标题文字。绿色表示伴随图像。而紫色标志着职位发布的两个段落（或“正文”）。
 
 让我们回过头来看一下文字处理器和文本编辑程序的类比，其中网页可以在常规文本文档中创建。也许 Open，Notepad 或 Word 将包含公告的文本，然后另存为文本文件。它应该工作正常吗？
 
-![img](http://howtocodeinhtml.com/img/chapter2/job-post-textmate.png)
+![job-post-textmate.png](https://i.loli.net/2018/11/14/5beb192f849d3.png)
 
 如果在Web浏览器中进行检查，则会得到以下内容：
 
-![img](http://howtocodeinhtml.com/img/chapter2/job-post-browser.png)
+![job-post-browser.png](https://i.loli.net/2018/11/14/5beb192fe0899.png)
 
 但是，这看起来不像我们设计的那样，是吗？它只是一大堆文字，不显示图片。现在怎么办？也许我们应该尝试在 Word 或 Photoshop 中创建这个帖子？我们并不想要这样做。我们在这里犯了错误，我们很快就会修复。关键问题是我们创建了一个只有纯文本的网站。
 
 Web浏览器无法理解如何仅使用纯文本正确显示页面 - 它不知道文本的哪个部分应该是标题，哪个部分应该是图片。为了正确显示页面，我们需要通过文本功能定义每个元素，并将此信息传递给浏览器。我们已经部分完成了它。让我们做一些小的定义工作并使用正确的语法，以便浏览器也能理解它：
 
-![img](http://howtocodeinhtml.com/img/chapter2/job-post-functional-bricks.png)
+![job-post-functional-bricks.png](https://i.loli.net/2018/11/14/5beb1933e9f7e.png)
 
 如您所见，文本中有特殊标记。我们稍后会谈到这些。现在，最好只是尝试从上到下完全按原样复制它们，就好像你正在逐块构建块一样。
 
 您应该得到类似以下内容：
 
-![img](http://howtocodeinhtml.com/img/chapter2/job-post-code.png)
+![job-post-code.png](https://i.loli.net/2018/11/14/5beb192f00884.png)
 
 接下来，保存HTML文件。顺便说一下：我推荐[Sublime Text Editor](http://sublimetext.com/)，它是最好的代码编辑器之一。
 
-![img](http://howtocodeinhtml.com/img/chapter2/job-post-save.png)
+![job-post-save.png](https://i.loli.net/2018/11/14/5beb192eb2b49.png)
 
 现在让我们在 Web 浏览器中尝试新文件。
 
-![img](http://howtocodeinhtml.com/img/chapter2/job-post-html-browser.png)
+![job-post-html-browser.png](https://i.loli.net/2018/11/14/5beb1933bcaef.png)
 
 它看起来好一点。现在，文本的每个部分的格式都不同，并且还会显示图片。这不是最终版本。缺乏色彩，粗体文字和风格尚不完全匹配。但在我们开始研究之前，让我们继续关注页面的结构。
 
 首先，让我们比较发布的纯文本文档版本和HTML中显示的版本：
 
-![img](http://howtocodeinhtml.com/img/chapter2/job-post-code-comparison.png)
+![job-post-code-comparison.png](https://i.loli.net/2018/11/14/5beb192f6998a.png)
 
 由于周围特定文本片段带有特殊标签，我们创建了一个完全不同的文档，浏览器可以理解。路要走！
 
@@ -115,6 +115,6 @@ and toys.</p>
 
 这是它在网络上的样子。
 
-![img](http://howtocodeinhtml.com/img/chapter2/job-post-strong-browser.png)
+![job-post-strong-browser.png](https://i.loli.net/2018/11/14/5beb192e651db.png)
 
 请注意，我们上面使用的Web浏览器以粗体显示片段，但这并不总是一个规则。 `<strong>` 使文本变粗，这很常见，但有时会被忽略。在本文中使用此HTML标记的原因是嵌套如何工作的一个很好的例子，但是通过一种称为 CSS 的语言可以更好地实现视觉效果（如粗体），我们将在稍后了解更多信息。

@@ -4,7 +4,7 @@
 
 是时候进行另一项练习，向您展示在 HTML5 中编写更高级网站的理念。我们将尝试将以下示例生成为网站，博客上的文章。
 
-![img](http://howtocodeinhtml.com/img/chapter4/blogpost-preview.png)
+![blogpost-preview.png](https://i.loli.net/2018/11/14/5beb1c063cc35.png)
 
 请注意，这里我们有一篇文章标题。此外，还有关于作者的信息，以及照片和“引用”段落。值得注意的是，作为一名前端 Web 开发人员，您经常会收到图形设计（如上所示），并且必须以 HTML 格式重新创建所有内容。
 
