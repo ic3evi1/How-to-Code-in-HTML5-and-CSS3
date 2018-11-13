@@ -126,11 +126,11 @@ tag attribute="value"
 
 您可能已经注意到，我们在标签 < title> 之间添加了标题。有什么区别，为什么我们这样做呢？下图说明了我们没有 < title> 标签（左）和我们的页面有 < title> 标签（右）的情况。使用标题，我们的网站更适用于浏览器用户，并且在许多标签之间导航更容易。
 
-![img](http://howtocodeinhtml.com/img/chapter3/job-post-title-comparison.png)
+![job-post-title-comparison.png](https://i.loli.net/2018/11/14/5beb1aecb6c62.png)
 
 另一个例子可能是我的公司网站。我使用“功能 - JavaScript 研讨会团队”作为标题内的文本标签。因此，它在 Google 搜索结果中显示为：
 
-![img](http://howtocodeinhtml.com/img/chapter3/functionite-title-google.png)
+![functionite-title-google.png](https://i.loli.net/2018/11/14/5beb1aec05a70.png)
 
 如您所见，在对网站进行编码时，这一点非常重要。没有它，该网站将没有名称，这将给访问者留下不好的印象。就个人而言，我不相信一个甚至没有标题的页面。
 
@@ -155,11 +155,11 @@ tag attribute="value"
 
 该页面应如下所示：
 
-![img](http://howtocodeinhtml.com/img/chapter3/w3c-validator.png)
+![w3c-validator.png](https://i.loli.net/2018/11/14/5beb1aeac7c44.png)
 
 让我们使用该工具并检查我们的代码是否正确。
 
-![img](http://howtocodeinhtml.com/img/chapter3/w3c-validator-error.png)
+![w3c-validator-error.png](https://i.loli.net/2018/11/14/5beb1aeac8723.png)
 
 ... Woops！我们有一个错误和3个警告。我们来看看它们。
 
@@ -191,7 +191,7 @@ tag attribute="value"
 
 ...然后再次针对验证器检查我们的文档。
 
-![img](http://howtocodeinhtml.com/img/chapter3/w3c-validator-valid.png)
+![w3c-validator-valid.png](https://i.loli.net/2018/11/14/5beb1aead3fcf.png)
 
 它通过没有错误！
 
@@ -209,7 +209,7 @@ tag attribute="value"
 
 让我们在浏览器中检查效果：
 
-![img](http://howtocodeinhtml.com/img/chapter3/utf-problem.png)
+![utf-problem.png](https://i.loli.net/2018/11/14/5beb1aeeecebb.png)
 
 请注意最后一行，而不是一个正确的中文句子，我们可以看到一些在任何现代语言中根本没有意义的奇怪标志。不要惊慌，它与我们在 HTML 验证器中收到的警告有关。事实证明，我们没有插入特殊的行，这将允许其他语言正确显示。在计算机世界中，它被称为[字符编码](http://en.wikipedia.org/wiki/Character_encoding)。如果我们将此信息传递给 HTML 页面，它将“告诉”浏览器它已准备好显示各种字符，包括所有不同的变音标记。
 
