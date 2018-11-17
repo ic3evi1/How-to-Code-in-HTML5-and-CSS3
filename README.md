@@ -16,9 +16,10 @@
 
 实验：根据章节内容学习和制作demo。
 
-- [x] [前言](/00-Foreword/Foreword.md)
-- [x] [网站和乐高积木](/01-Websites-and-Legos/Websites-and-Legos.md)
-- [x] [让我们建立我们的第一个网站](/02-Build-our-first-website/Build-our-first-website.md)
-- [x] [完美HTML代码的功能](/03-Features-of-Perfect-HTML-Code/Features-of-Perfect-HTML-Code.md)
-- [x] [HTML练习：编写一个Blogpost](/04-Coding-a-Blogpost/Coding-a-Blogpost.md)
+- [x] 00. [前言](/00-Foreword/Foreword.md)
+- [x] 01. [网站和乐高积木](/01-Websites-and-Legos/Websites-and-Legos.md)
+- [x] 02. [让我们建立我们的第一个网站](/02-Build-our-first-website/Build-our-first-website.md)
+- [x] 03. [完美HTML代码的功能](/03-Features-of-Perfect-HTML-Code/Features-of-Perfect-HTML-Code.md)
+- [x] 04. [HTML练习：编写一个Blogpost](/04-Coding-a-Blogpost/Coding-a-Blogpost.md)
+- [x] 05. [CSS3 中的网站视觉效果](/05-Site-Visuals-in-CSS3/Site-Visuals-in-CSS3.md)
 
