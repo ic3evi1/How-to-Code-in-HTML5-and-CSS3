@@ -7,4 +7,5 @@
 * [3. 完美HTML代码的功能](03-Features-of-Perfect-HTML-Code/Features-of-Perfect-HTML-Code.md)
 * [4. HTML练习：编写一个Blogpost](04-Coding-a-Blogpost/Coding-a-Blogpost.md)
 * [5. CSS3 中的网站视觉效果](/05-Site-Visuals-in-CSS3/Site-Visuals-in-CSS3.md)
+* [6. 请给个菜单](/06-Menu-Please/Menu-Please.md)
 
